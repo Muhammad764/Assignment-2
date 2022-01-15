@@ -178,7 +178,10 @@ nav {
   text-decoration: none;
 }
 
-/* contact part css start */
+/*===============================
+          contact part 
+ ================================*/
+
 .newsletter-inner {
   padding: 100px 0;
   text-align: center;
@@ -188,12 +191,12 @@ nav {
 }
 .newsletter-box .subscribe {
   border: 1px solid #8b8686;
-  border-radius: 30px;
-  box-shadow: 0 0 40px #dbdbdb;
+  border-radius: 100px;
+  box-shadow: 0 0 20px #a5a5a5;
   display: inline-block;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
-  height: 54px;
+  height: 55px;
   line-height: 30px;
   padding: 10px 160px 10px 25px;
   width: 100%;
@@ -236,7 +239,7 @@ footer {
            Media Quaries
 ==================================== */
 
-@media screen and (max-width: 820px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
   .navigation {
     position: absolute;
     top: 80px;
@@ -253,5 +256,26 @@ footer {
   .banner,
   .popular-collection {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navigation {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0;
+    transform: translateY(-330px);
+    transition: 0.5s ease-in-out;
+  }
+  .navigation li a {
+    color: #121212;
+  }
+  .banner,
+  .popular-collection {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
