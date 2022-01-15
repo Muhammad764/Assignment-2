@@ -9,9 +9,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* =============== 
-      Common 
-================== */
+/*=========================== 
+            Common 
+=============================*/
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -42,9 +43,9 @@ body {
   text-align: center;
   padding: 80px 0;
 }
-/*=================  
-       Navbar 
-=================== */
+/*=======================  
+          Navbar 
+========================= */
 
 nav {
   display: flex;
@@ -78,9 +79,9 @@ nav {
   transition: 0.7s ease-in-out;
 }
 
-/* ========================= 
-       Section Banner 
-===========================*/
+/*================================ 
+           Section Banner 
+==================================*/
 .container-banner-area {
   max-width: 1300px;
   margin: 0 auto;
@@ -114,7 +115,10 @@ nav {
 .banner-right img {
   width: 100%;
 }
-/* ============= Popular Collection ============== */
+/* ================================= 
+          Popular Collection 
+===================================== */
+
 .popular-collection {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -203,11 +207,9 @@ nav {
   margin-bottom: 30px;
 }
 
-/* contact part css end */
-
-/*========================== 
+/*================================ 
               Footer 
-============================== */
+================================== */
 
 footer {
   height: 180px;
